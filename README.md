@@ -29,6 +29,18 @@
     pip install -r requirements.txt
     ```
 
+5.  **Install Anaconda:**
+
+    Download and install Anaconda from the official website: [Anaconda Distribution](https://www.anaconda.com/products/distribution).
+    Lunch anaconda prompt and run the following commands:
+
+    ```bash
+    cd <project-folder>
+    conda env create -f environment.yml
+    conda activate ProphetDemandPrediction
+    jupyter notebook
+    ``
+
 ## Guidelines
 
 *   **Commit Messages:** Commits should clearly describe the changes that were made. Commit messages may be generated automatically using AI tools, but they should remain meaningful and relevant.
